@@ -18,6 +18,14 @@
         color: #333;
         margin: 20px;
       }
+      .team-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        padding: 20px 0;
+        max-width: 900px;
+        margin:auto;
+      }
       .team-member {
         flex: 1;
         background-color:white;
@@ -26,6 +34,11 @@
         padding:20px;
         text-align: center;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      }
+      .team-member h3{
+        margin-top: 15px;
+        margin-botton:5px;
+        color: #333;
       }
       /*.content-box{
         background-color: white;
@@ -50,9 +63,16 @@
     <h1> Our Management Team </h1>
     </header>
     <h6>This is Sabrina!</h6>
-    <div class="content-box">
+    <div class="team-member">
       <h2>some person</h2>
       <p>somethingrfjsnidjivnfdib sdnuisvnf dis</p>
+    </div>
+
+    <div class ="team-member">
+      <p>goodbye</p>
+    </div>
+    <div class="team-member">
+      <p>hello</p>
     </div>
   </body>
 </html>
