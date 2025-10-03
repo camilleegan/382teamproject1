@@ -1,123 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Coltivare — Services</title>
-  <style>
-    :root {
-      --header-bg: #A3D6FF; 
-      --page-bg: #FFF5E8;   
-    }
-    body {
-      font-family: "Times New Roman", serif;
-      margin: 0;
-      background-color: white;
-      color: black;
-      line-height: 1.6;
-    }
-    header {
-      background-color: #A3D6FF;
-      padding: 16px 20px;
-      display: flex;
-      flex-direction: column;     
-  align-items: center;        
-  justify-content: center;
-  border-bottom: 1px solid #ccc;
-    }
-    header h1 {
-      margin: 0;
-      font-family: "Times New Roman", sans-serif;
-      font-size: 36px;
-      color: #ffffff; 
-      text-align: center; 
-    }
-    .nav-links a {
-      margin-left: 15px;
-      text-decoration: none;
-      font-family: Arial, sans-serif;
-      color: black;
-    }
-    .nav-links a:hover {
-      text-decoration: underline;
-    }
-    .card {
-      border: 1px solid #ccc;
-      padding: 15px;
-      margin: 15px;
-      border-radius: 6px;
-    }
-    img { max-width: 75%; height: auto; border-radius: 6px; }
-    footer { margin: 20px; font-size: 14px; color: grey; text-align: center; }
-    .big { font-size: 20px; }
-    .small { font-size: 14px; }
-    .grey { color: grey; }
-  </style>
-</head>
-<body>
-
-<!-- Header with blue background -->
-<header>
-  <h1><u>Coltivare</u></h1>
-  <nav class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="management.html">Management</a>
-    <a href="services.html">Services</a>
-    <a href="mailto:imunn@purdue.edu?subject=Coltivare%20Service%20Inquiry">Contact</a>
-  </nav>
-</header>
-
-<!-- Intro -->
-<div class="card">
-  <h2 class="grey">We're Here To Serve You!</h2>
-  <p class="big"><em>Your partner in <strong>ALL</strong> things farm!.</em></p>
-</div>
-
-<div class="card">
-  <img src="farmpic.jpg" alt="Farm photo with barns and fields">
-  <p class="small grey">One of the beautiful farms from a very happy Coltivare customer!</p>
-</div>
-
-<!-- Unordered list -->
-<div class="card">
-  <h2>What We Offer!</h2>
-  <ul>
-    <li>Crop Insurance</li>
-    <li>Soil Testing</li>
-    <li>Farm Appraisal (by request)</li>
-  </ul>
-</div>
-
-<!-- Ordered list -->
-<div class="card">
-  <h2>How to Contact Us</h2>
-  <ol>
-    <li><strong>Step One:</strong> Email <a href="mailto:imunn@purdue.edu?subject=Coltivare%20Service%20Inquiry">imunn@purdue.edu</a></li>
-    <li><strong>Step Two:</strong> Hold on tight! And we'll respond with the details</li>
-    <li><strong>Step Three:</strong> Confirm your service and we'll schedule a visit</li>
-  </ol>
-</div>
-
-
-<div class="card">
-  <p class="small">Try the University of Illinois crop insurance calculator: 
-    <a href="https://farmdoc.illinois.edu/crop-insurance" target="_blank" rel="noopener">Crop Insurance Calculator</a>
-  </p>
-</div>
-
-
-<div class="card">
-  <p class="small">Download this farm appraisal overview to get an idea of what we do:</p>
-<a href="farmappraisal.pdf" download>Download Farm Appraisal (PDF)</a>
-</div>
-
-
-<footer>
-  <p>Last modified: <span id="lastmod"></span></p>
-</footer>
-
-<script>
-  document.getElementById('lastmod').textContent = document.lastModified;
-</script>
-
-</body>
+<html>
+   <head>
+      <title>Cultivare Products</title>
+         <style>
+  body {
+    background-color: #FFF5E8;
+    font-family: "Arial", sans-serif;
+    color: #333;
+    margin: 0;
+  }
+            
+  h1 {
+    background-color: #A3D6FF;
+    color: #FFF5E8;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+  }
+  h2 {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .tractor-box {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white
+  }
+  .list-box {
+    border: 2px solid #A3D6FF;
+    background-color: white;
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+  }
+  .contact-box {
+    margin: 0;
+  }
+  footer {
+    background-color: #A3D6FF;
+    color: #FFF5E8;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
+      </style>
+   </head>
+   <body>
+      <h1>OUR PRODUCTS</h1>
+      <p style="text-align:center; font-style:italic">
+         At Cultivare we offer a multitude of <u>award winning</u> product that have transformed us into the company that we are today
+      </p>
+      <div class="list-box">
+         <h2>Our Products</h2>
+         <ul>
+            <li>Tractors</li>
+            <li>Bulk Seeds</li>
+            <li>Farm Plots</li>
+         </ul>
+      </div>
+      <div class="tractor-box">
+         <h3>Click Below to view our <b>award winning</b> tractors sold through Equipment Trader</h3>
+         <a ref="https://www.equipmenttrader.com/Tractors/equipment-for-sale?category=Tractors%7C2001881" target="_blank">
+            here
+         </a>
+      </div>
+             <div class="contact-box">
+                <h3>Want to learn more about plot for sale</h3>
+                <ol>
+                   <li>contact <a href="mcdonald.joshua4@gmail.com"></a></li>
+                   <li>Find a plot that looks right for you</li>
+                   <li>sign deed <i>here</i> <a href="pdf"></a></li>
+                </ol>
+             </div>
+      <footer>
+         <p id="LastModified"></p>
+            <script>
+               document-getElementById("LastModified").innerHTML = "Last modified: "+document.lastModified;
+            </script>
+            <p>Last Edit Completed On: <span id="LastModified"></span></p></footer>
+   </body>
 </html>
