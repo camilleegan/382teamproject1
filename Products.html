@@ -19,7 +19,7 @@
   }
   h2 {
     text-decoration: underline;
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
   }
   .tractor-box {
@@ -76,12 +76,12 @@
                    <li>sign deed <i>here</i> <a href="pdf"></a></li>
                 </ol>
              </div>
-      <footer>
-         <p id="LastModified"></p>
-            <script>
-               document-getElementById("LastModified").innerHTML = "Last modified: "+document.lastModified;
-            </script>
-           
-      </footer>
+  <footer>
+  <p><i>Last Edit Completed On: <span id="LastModified"></span></i></p>
+
+  <script>
+    document.getElementById("LastModified").innerHTML = document.lastModified;
+  </script>
+         </footer>
    </body>
 </html>
