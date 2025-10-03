@@ -68,18 +68,28 @@
         justify-content:space-between;
         align-items:center;
       }
-      /*.header-left{*/
-        /*display:flex;*/
-       /* align-items: center;*/
-        /*gap: 20px;*/
+      nav { 
+        display: flex;
+        gap: 15px;
+        flex:1;
+        justify-content: flex-end;
+      }
+      .header-spacer{
+        flex:1;
+      }
+
+      header h1 {
+        flex:2;
+        text-align:center;
+        margin:0;
+        font-size: 2em;
       }
       header a, header a:visited {
         color: white; /*var(--page-bg)*/
         text-decoration: none;
       }
       header a:hover{
-        text-decoraiton: underline;
-        text-align:left;
+        text-decoration: underline;
       }
       .sub-heading{
         font-family: "Times New Roman", monospace;
